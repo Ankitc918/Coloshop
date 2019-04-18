@@ -1,0 +1,370 @@
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.wrap100{
+    width: 100%;
+}
+.wrap90{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.wrap80{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.navbar{
+    margin: inherit;
+}
+.center{
+    margin:auto;
+    align-content: center;
+    text-align: center;
+}
+.right{
+    margin: auto;
+    text-align: right;
+    float: right;
+}
+.left{
+    margin: auto;
+    text-align: left;
+    float: left;
+}
+ul{
+    list-style-type: none;
+}
+li{
+     display: inline-block;
+}
+.header{
+    color: white;
+    background-color:#1e1e27;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.headerfix{
+    z-index: +1;
+    background-color:white;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+.imgfull
+{
+    margin-top: 140px;
+    height: 600px;
+    width: inherit;
+}
+.boxoverimg
+{
+    position: absolute;
+    margin-top: -300px;
+}
+.boxoverimg1
+{
+    font-weight: bold;
+    font-size: 30px;
+    position:absolute;
+    margin-left: 80px;
+    margin-top: -100px;
+    color: black;
+    background-color: white;
+}
+.boxnewsletter{
+    margin: auto;
+    
+    background-color: #e3e3e1;
+}
+
+.bigfont{
+    font-size: 65px;
+}
+.hrcenter
+{
+    width: 50px;
+    border: solid red;
+}
+.relative
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+.alterbg{
+    background-color: #e3e3e1;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation:portrait) {
+    .wrap80{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .imgfull{
+        height: 420px;
+    }
+    .imgfull1{
+        height: 380px;
+    }
+    .bigfont{
+        font-size: 50px;
+    }
+    .boxoverimg1{
+        margin-left: 50px;
+        margin-top: -60px;
+        font-size: 15px;
+        text-align: center;
+        align-content: center;
+    }
+    img.one
+    {
+        width: 95%;
+    }
+    img.two{
+        height: 30%;
+        width: 30%;
+    }
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .wrap80{
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    .imgfull{
+        height: 550px;
+    }
+    .imgfull1{
+        height: 460px;
+    }
+    .bigfont{
+        font-size: 55px;
+    }
+    .boxoverimg1{
+        margin-left: 60px;
+        font-size: 20px;
+        text-align: center;
+        align-content: center;
+    }
+    img.one
+    {
+        width: 95%;
+    }
+    img.two{
+        height: 30%;
+        width: 30%;
+    }
+    
+  
+}
+
+@media (min-width: 736px) and (max-width:1023px) and (orientation:landscape) {
+    body{
+        font-size: 15px;
+    }
+    .wrap80{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .imgfull{
+        height: 400px;
+    }
+    .imgfull1{
+        height: 360px;
+    }
+    .bigfont{
+        font-size: 45px;
+    }
+    .boxoverimg1{
+        margin-left: 40px;
+        font-size: 15px;
+        text-align: center;
+        align-content: center;
+    }
+    img.one
+    {
+        width: 95%;
+    }
+    img.two{
+        height: 30%;
+        width: 30%;
+    }
+    h5{
+        font-size: 13px;
+    }
+    h2{
+        font-size: 26px;
+    }
+}
+@media (min-width:414px) and (max-width:767px) and (orientation:portrait){
+    body{
+        font-size: 10px;
+    } 
+    .wrap80{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .imgfull{
+        height: 280px;
+    }
+    .imgfull1{
+        height: 240px;
+    }
+    .bigfont{
+        font-size: 25px;
+    }
+    .boxoverimg1{
+        margin-left: 30px;
+        margin-top: -40px;
+        font-size: 8px;
+        text-align: center;
+        align-content: center;
+    }
+    .boxoverimg{
+        margin-top: -200px;
+    }
+    
+    img.one
+    {
+        width: 95%;
+    }
+    img.two{
+        height: 30%;
+        width: 30%;
+    }
+   h5{
+        font-size: 10px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 22px;
+    }
+     ul.navbar{
+        float: right;
+        display: block;
+    }
+  
+}
+@media (min-width:667px) and (max-width:735px) and (orientation:landscape){
+     body{
+        font-size: 15px;
+    }
+    .wrap80{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .imgfull{
+        height: 400px;
+    }
+    .imgfull1{
+        height: 360px;
+    }
+    .bigfont{
+        font-size: 45px;
+    }
+    .boxoverimg1{
+        margin-left: 40px;
+        font-size: 15px;
+        text-align: center;
+        align-content: center;
+    }
+    img.one
+    {
+        width: 95%;
+    }
+    img.two{
+        height: 30%;
+        width: 30%;
+    }
+    h5{
+        font-size: 13px;
+    }
+    h2{
+        font-size: 26px;
+    }
+}
+@media (min-width:375px) and (max-width:413px) and (orientation:portrait){
+      body{
+        font-size: 8px;
+    } 
+    .wrap80{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .imgfull{
+        height: 280px;
+    }
+    .imgfull1{
+        height: 240px;
+    }
+    .bigfont{
+        font-size: 25px;
+    }
+    .boxoverimg1{
+        margin-left: 30px;
+        margin-top: -20px;
+        font-size: 5px;
+        text-align: center;
+        align-content: center;
+    }
+    .boxoverimg{
+        margin-top: -200px;
+    }
+    .navbar,li{
+        display: block;
+    }
+    img.one
+    {
+        width: 95%;
+    }
+    img.two{
+        height: 30%;
+        width: 30%;
+    }
+    h5{
+        font-size: 10px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 22px;
+    }
+    ul.navbar{
+        float: right;
+        display: block;
+    }
+    
+}
